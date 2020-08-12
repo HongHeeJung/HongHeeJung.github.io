@@ -1,4 +1,4 @@
 
-# Lee Sun-Hyoup's Résumé
+# Hong Hee-Jung's Résumé
 
 Hello! :smile:
