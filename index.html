@@ -1,279 +1,296 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-
-<head>
+<html lang="ko">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
 
-<body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+    <title>Résumé</title>
+
+    <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico">
+
+    <!-- Noto Sans KR-Hestia -->
+    <link rel="stylesheet" href="./assets/noto-fonts/stylesheets/NotoSansKR-Hestia.css">
+
+    <!-- font-awesome -->
+    <link href="./assets/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- custom css -->
+    <link href="./assets/css/common.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <!-- IE8 에서 HTML5 요소와 미디어 쿼리를 위한 HTML5 shim 와 Respond.js -->
+    <!-- WARNING: Respond.js 는 당신이 file:// 을 통해 페이지를 볼 때는 동작하지 않습니다. -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="resume-wrapper">
+
+      <!-- header -->
+      <header>
+        <h1 class="heading-container">Résumé</h1>
+        <h2 class="name-container">Hong Hee-Jung</h2>
+        <h3 class="job-container">Developer</h3>
+        <div class="profile-picture">
+          <img src="./assets/img/profile.jpeg" alt="">
         </div>
-        <ul id="menu" class="shadow">
+        <div class="contact-container">
+          <ul class="contact-list">
             <li>
-                <a href="#about">About</a>
+              <a href="mailto:hongwz2@naver.com">honwz2@naver.com</a>
+              <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
             </li>
             <li>
-                <a href="#experience">Experience</a>
+              <a href="https://liveituphj.tistory.com/" target="_blank">https://liveituphj.tistory.com/</a>
+              <span><i class="fa fa-globe" aria-hidden="true"></i></span>
             </li>
             <li>
-                <a href="#education">Education</a>
+              <a href="https://github.com/HongHeeJung" target="_blank">https://github.com/HongHeeJung</a>
+              <span><i class="fa fa-github" aria-hidden="true"></i></span>
             </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+          </ul>
         </div>
-        <!-- End #lead-content -->
+      </header><!-- header -->
 
-        <div id="lead-overlay"></div>
+      <!-- main -->
+      <section id="main">
+        <div class="resume-item-wrapper">
 
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
+          <!-- experince -->
+          <!-- experince -->
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
+          <!-- project -->
+          <section class="resume-item project">
+            <div class="inner">
+              <h2>프로젝트</h2>
+              <strong>한국전자통신연구원(ETRI)</strong>
+              <ul>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <h3><a href="#" target="_blank">사물-사람-공간의 유기적 연결을 위한 초연결 공간의 분산 지능 핵심원천기술 개발</a></h3>
+                  <p class="detail">
+                    사물-사람-공간의 유기적 연결을 위한 초연결 공간의 분산 지능 핵심원천기술 개발
+                    <blockquote>
+                      Language: C++, C <br>
+                      Embedded Board: Jetson TX2(Ubuntu 18.04), Arduino nano <br>
+                      Sensor: RPLidar A3, Real-sense Camera, Step motor <br>
+                      Hardware: Drone(plan)
+                    </blockquote>
+                  </p>
                 </li>
+              </ul>
+
+              <strong>캡스톤 디자인(교내)</strong>
+              <ul>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <h3><a href="#" target="_blank">ROSchool</a></h3>
+                  <p class="detail">
+                    Improvement of LiDAR-based autonomous driving performance in random starting points
+                    <blockquote>
+                      Language: C++, C <br>
+                      Embedded Board: Raspberry pi 4b(Ubuntu 18.04), Arduino uno <br>
+                      Sensor: RPLidar A1, Brushless motor <br>
+                      Hardware: RC car
+                    </blockquote>
+                  </p>
                 </li>
+
+              <strong>디바이스마트 공모전</strong>
+              <ul>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <h3><a href="#" target="_blank">WhoRU</a></h3>
+                  <p class="detail">
+                    얼굴 인식을 이용한 차량용 잠금장치
+                    <blockquote>
+                      Language: C++, C, JavaScript, Python <br>
+                      Embedded Board: Raspberry pi 3b(Raspbian), Arduino uno <br>
+                      Sensor: Camera
+                    </blockquote>
+                  </p>
                 </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+              <strong>현대 NGV 팀 프로젝트</strong>
+              <ul>
+                <li>
+                  <h3><a href="#" target="_blank">Blackfencer</a></h3>
+                  <p class="detail">
+                    블랙아이스 검출
+                    <blockquote>
+                      Language: C++, C, JavaScript, Python <br>
+                      Embedded Board: Raspberry pi 3b(Raspbian), Arduino uno <br>
+                      Sensor: camera, IR camera <br>
+                      Hardware: Donkey Car
+                    </blockquote>
+                  </p>
+                </li>
+              </ul>
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+              <strong>2019 KSAE 캡스톤 디자인 경진대회</strong>
+              <ul>
+                <li>
+                  <h3><a href="#" target="_blank">Sensor fusion with Digital Twin</a></h3>
+                  <p class="detail">
+                    Sensor fusion with Digital Twin
+                    <blockquote>
+                      Language: C++, C <br>
+                      Sensor: Velodyne v16, Mobileye, GPS <br>
+                      Hardware: Hyundai - NIRO
+                    </blockquote>
+                  </p>
+                </li>
+              </ul>
             </div>
-        </div>
-    </div>
-    <!-- End #projects -->
+          </section><!-- project -->
 
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
+           <!-- open source -->
+          <section class="resume-item open-source">
+            <div class="inner">
+              <h2>오픈소스</h2>
+              <ul>
+                <li>
+                  <h3><a href="https://github.com/HongHeeJung/reconstruct_2.5d" target="_blank">reconst_2.5d </a></h3>
+                  <p class="detail">
+                    LOAM
+                    <a href="https://github.com/HongHeeJung/reconstruct_2.5d" target="_blank">https://github.com/HongHeeJung/reconstruct_2.5d</a>
+                  </p>
+                  <p class="tags">#C++ #lidar #odometry #mapping</p>
+                </li>
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2020 YOUR NAME
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
+                <li>
+                  <h3><a href="https://github.com/HongHeeJung/LiDAR_autonomous" target="_blank">lidar-based autonomous driving </a></h3>
+                  <p class="detail">
+                    path
+                    <a href="https://github.com/HongHeeJung/LiDAR_autonomous" target="_blank">https://github.com/HongHeeJung/LiDAR_autonomous</a>
+                  </p>
+                  <p class="tags">#C++ #lidar #autonomous</p>
+                </li>
+              </ul>
             </div>
+          </section><!-- project -->
+
+
+          <!-- activity -->
+          <section class="resume-item activity">
+            <div class="inner">
+              <h2>외부활동</h2>
+              <ul>
+                <li>
+                  <h3>한국전자통신연구원(ETRI) 연구연수생</h3>
+                  <h4 class="organization">한국전자통신연구원(ETRI)</h4>
+                  <span class="date">2020. 07. 02 ~ 2020. 08. 31</span>
+                  <p class="detail">
+                    진행중
+                    <a href="https://github.com/HongHeeJung/reconstruct_2.5d" target="_blank">상세 내용</a>
+                  </p>
+                </li>
+                
+                <li>
+                  <h3>Mobile Robot Perception and Navigation 강의 수강</h3>
+                  <h4 class="organization">서울과학기술대학교</h4>
+                  <span class="date">2020. 06</span>
+                  <p class="detail">
+                    Mobile Robot Perception and Navigation
+                  </p>
+                </li>
+                
+                <li>
+                  <h3>이동통신공학 Ⅰ강의 수강</h3>
+                  <h4 class="organization">고려대학교</h4>
+                  <span class="date">2020. 03. </span>
+                  <p class="detail">
+                    5G 기술
+                  </p>
+                </li>
+
+                <li>
+                  <h3>미래자동차 인재육성을 위한 모빌리티 설계 및 제작 프로젝트</h3>
+                  <h4 class="organization">현대 NGV</h4>
+                  <span class="date">2019. 12. 24 ~ 2020. 02. 20</span>
+                  <p class="detail">
+                    교육 + 플젝
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </section><!-- activity -->
+
+          <!-- award -->
+          <section class="resume-item award">
+            <div class="inner">
+              <h2>수상내역</h2>
+              <ul>
+                <li>
+                  <h3>2020 ICT 융합 프로젝트 공모전 장려상</h3>
+                  <h4 class="organization">엔티렉스(디바이스마트)</h4>
+                  <span class="date">2020. 05. 14</span>
+                </li>
+
+                <li>
+                  <h3>2019 KSAE 캡스톤디자인 경진대회 장려상</h3>
+                  <h4 class="organization">한국자동차공학회</h4>
+                  <span class="date">2019. 11. 20</span>
+                </li>
+
+              </ul>
+            </div>
+          </section><!-- award -->
+
+          <!-- skill -->
+          <section class="resume-item skill">
+            <div class="inner">
+              <h2>기술스택</h2>
+
+              <strong>Language</strong>
+              <ul>
+                <li>
+                  <h3>C++</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 80% ;"></span>
+                  </div>
+                </li>
+                
+                <li>
+                  <h3>Linux command</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 80% ;"></span>
+                  </div>
+                </li>
+                
+                <li>
+                  <h3>C</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 60% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>Python</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 60% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>JavaScript (ES6)</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 30% ;"></span>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+          </section><!-- skill -->
+
         </div>
-    </footer>
-    <!-- End footer -->
+      </section><!-- main -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-</body>
+      <!-- footer -->
+      <footer>
+          © 2020 <a href="https://github.com/HongHeeJung" target="_blank">HeeJung Hong</a>. All rights reserved.
+      </footer><!-- footer -->
 
+    </div>
+  </body>
 </html>
