@@ -16,6 +16,7 @@
     <link href="./assets/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- custom css -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
     <link href="./assets/css/common.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
 
@@ -32,8 +33,9 @@
       <!-- header -->
       <header>
         <h1 class="heading-container">Résumé</h1>
+        <!-- <h1 class="heading-container">PORTFOLIO</h1> -->
         <h2 class="name-container">Hong Heejung</h2>
-        <h3 class="job-container">Software Engineer</h3>
+        <h3 class="job-container">Kookmin University <br> Dept of <b>Automobile & IT Convergence</b></h3>
         <div class="profile-picture">
           <img src="./assets/img/profile.jpeg" alt="">
         </div>
@@ -58,11 +60,87 @@
         </div>
       </header><!-- header -->
 
-      <!-- main -->
+      <!-- main -->     
       <section id="main">
         <div class="resume-item-wrapper">
 
+          <!-- Interest -->
+          <section class="resume-item interset">
+            <div class="inner">
+              <div id="services">
+                <h2><br>Interests</h2>
+                <div class="col-md-10 col-md-offset-1 section-title text-center">
+                  <h3>My interest things are</h3>
+                  <hr>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-4 service"> 
+                      <img src="./assets/img/map.jpg" class="img-responsive" alt="Project Title">
+                    <h4>Embedded Development</h4>
+                    <p>
+                      I mainly use <b>C++</b> and I have development experiences on <b>Linux</b>.<br>
+                    </p>
+                    <br>
+                  </div>
+                  <div class="col-xs-12 col-sm-4 service"> 
+                    <img src="./assets/img/Benz.jpg" class="img-responsive" alt="Project Title">
+                    <h4>Autonomous driving</h4>
+                    <p>perception, path planning</p>
+                    <br>
+                  </div>
+                  <div class="col-xs-12 col-sm-4 service"> 
+                    <img src="./assets/img/Mongo.JPG" class="img-responsive" alt="Project Title">
+                    <h4>Travel</h4>
+                    <br>
+                    <p>
+                      I love traveling and enjoying various cultures.😄<br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Interest -->
+
+          
           <!-- experince -->
+          <section class="resume-item experience">
+            <div class="inner">
+              <h2>Professional Experiences</h2>
+              <ul>
+                <li>
+                  <h3>Hyundai-mnsoft</h3>
+                  <h4 class="company">Intern</h4>
+                  <span class="date">2020. 09. 01 ~ 2020. 12. 18</span>
+                  <p class="detail">
+                    Working on the software development team for transmitting High-Definition map used in autonomous vehicles. <br>
+                    - Analyzed logic for expanding route based on API accessing raw data of High Definition Map (HD map) 
+                    and restructured the API to facilitate to delete legacy code.<br>
+                    - Implemented test code to check the connection between HD map Controller and PC (Linux) acting as virtual server. <br>
+                    - Drew up technical documents about a setting manual for HIL test with HD map Controller which are unfamiliar to developers <br>
+                    <blockquote>
+                      Language: C <br>
+                    </blockquote>
+                  </p>
+                </li>
+                <li>
+                  <h3>Electronical and Telecommunications<br> Research Institute (ETRI)</h3>
+                  <h4 class="company">Research Assistant</h4>
+                  <span class="date">2020. 07. 02 ~ 2020. 08. 28</span>
+                  <p class="detail">
+                      Responsible for the task of "Designing and controlling 3D lidar for drones with motor added to commercial 2D lidar". <br>
+                      - Developed a 3D spatial information acquiring system by controlling 2D Lidar and step motor to ROS to save cost and assure to get wide viewing angle. <br>
+                      - Improved the system using odometry data of depth camera to get information while moving back and forth. <br>
+                      - Designed the 3D spatial information acquiring system for drones with step motor added to commercial 2D Lidar by understanding the rotation system <br>
+                    <blockquote>
+                      Language: C++, C <br>
+                      Embedded Board: Jetson TX2(Ubuntu 18.04 + ROS), Arduino nano <br>
+                    </blockquote>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </section>
           <!-- experince -->
 
 
@@ -70,7 +148,7 @@
           <section class="resume-item project">
             <div class="inner">
               <h2>Projects</h2>
-              <strong>Electronical and Telecommunications Research Institute (ETRI)</strong>
+              <strong>Electronical and Telecommunications Research Institute</strong>
               <ul>
                 <li>
                   <h3><a href="#" target="_blank">Development of core technology for distributed intelligence to solve industrial and social problems</a></h3> <br>
@@ -90,7 +168,7 @@
               <strong>Within school (Kookmin University)</strong>
               <ul>
                 <li>
-                  <h3><a href="#" target="_blank">ROSchool (Capstone Design)</a></h3>
+                  <h3><a href="#" target="_blank">ROSchool</a></h3>
                   <p class="detail">
                     - Controlled a motor and implemented a linear lane tracking algorithm using Arduino to ROS. <br>
                     - Presentation at the poster session of the Korean Society of Automotive Engineers Spring Conference. <br>
@@ -103,7 +181,7 @@
                   </p>
                 </li>
                 <li>
-                  <h3><a href="#" target="_blank">Sensor fusion with Digital Twin (at University Club)</a></h3>
+                  <h3><a href="#" target="_blank">Sensor fusion with Digital Twin</a></h3>
                   <p class="detail">
                     Participated in implementing a system that recognizes front and rear vehicles using 3D lidar, mobileye, and GPS and transmits them to a virtual simulator in real time.
                     <blockquote>
@@ -118,7 +196,8 @@
               <strong>Contest</strong>
               <ul>
                 <li>
-                  <h3><a href="#" target="_blank">WhoRU (at Device Mart)</a></h3> <br>
+                  <h3><a href="#" target="_blank">WhoRU</a></h3> <br>
+                  <h4 class="company">NTREX (Device Mart)</h4>
                   <h3 style="color:#4a4"><a href="https://www.youtube.com/watch?v=9ZKqqgjH1lU&t=9s" target="_blank"><u>Video</u></a></h3>
                   <p class="detail">
                     - Developed to prevent identity theft as shared vehicle platforms become popular. <br>
@@ -137,7 +216,7 @@
               <strong> Other team projects</strong>
               <ul>
                 <li>
-                  <h3><a href="#" target="_blank">Blackfencer (at Hyundai-NGV)</a></h3> <br>
+                  <h3><a href="#" target="_blank">Blackfencer</a></h3> <br>
                   <h3 style="color:#4a4"><a href="https://www.youtube.com/watch?v=08L51skPKSs" target="_blank"><u>Video</u></a></h3>
                   <h3>&nbsp;&nbsp;&nbsp;</h3> 
                   <h3 style="color:#4a4"><a href="https://prezi.com/view/80b8K54lhw9a714Dh3B9/" target="_blank"><u>ppt</u></a></h3>
@@ -163,38 +242,12 @@
               <h2>Extracurricular Activity</h2>
               <ul>
                 <li>
-                  <h3>Intern at Hyundai-mnsoft</h3>
-                  <h4 class="organization">Hyundai-mnsoft</h4>
-                  <span class="date">2020. 09. 01 ~ 2020. 12. 18</span>
-                  <p class="detail">
-                    Working on the software development team for transmitting High-Definition map used in autonomous vehicles. <br>
-                    - Analyzed logic for expanding route based on API accessing raw data of High Definition Map (HD map) 
-                    and restructured the API to facilitate to delete legacy code.<br>
-                    - Implemented test code to check the connection between HD map Controller and PC (Linux) acting as virtual server. <br>
-                    - Drew up technical documents about a setting manual for HIL test with HD map Controller
-                    which are unfamiliar to developers <br>
-                  </p>
-                </li>
-
-                <li>
-                  <h3>Research Assistant at ETRI</h3>
-                  <h4 class="organization"> Electronical and Telecommunications Research Institute (ETRI)</h4>
-                  <span class="date">2020. 07. 02 ~ 2020. 08. 28</span>
-                  <p class="detail"> 
-                    Responsible for the task of "Designing and controlling 3D lidar for drones with motor added to commercial 2D lidar"
-                    - Developed a 3D spatial information acquiring system by controlling 2D Lidar and step motor to ROS to save cost and assure to get wide viewing angle. <br>
-                    - Improved the system using odometry data of depth camera to get information while moving back and forth. <br>
-                    - Designed the 3D spatial information acquiring system for drones with step motor added to commercial 2D Lidar by understanding the rotation system <br>
-                  </p>
-                </li>
-                
-                <li>
                   <h3>Lecture: Mobile Robot Perception and Navigation</h3>
                   <h4 class="organization">Open Online Course (Seoul National University of Science and Technology)</h4>
                   <span class="date">2020. 03. 16 ~ 2020. 06. 28</span>
                   <p class="detail">
-                    - Learned theories about location estimation, mapping, and path planning for "perception, planning, and control", which are the basic processes of autonomous driving. <br> 
-                    - Learned about Object detection based on deep learning <br>
+                    - Theories about location estimation, mapping, and path planning for "perception, planning, and control", which are the basic processes of autonomous driving. <br> 
+                    - Object detection based on deep learning. <br>
                     <a href="https://liveituphj.tistory.com/18" target="_blank">Details</a>
                   </p>
                 </li>
@@ -204,9 +257,9 @@
                   <h4 class="organization">Open Online Course (Korea University)</h4>
                   <span class="date">2020. 03. 02 ~ 2020. 04. 19</span>
                   <p class="detail">
-                    - Understood signal characteristics according to Doppler phenomenon. <br>
-                    - Learned methods to improve system capacity. <br>
-                    - Theoretically learned the concepts of factors that influence the improvement of 5G technology. 
+                    - Signal characteristics according to Doppler phenomenon. <br>
+                    - Methods to improve system capacity. <br>
+                    - The concepts of factors that influence the improvement of 5G technology. <br> 
                     <a href="https://liveituphj.tistory.com/6" target="_blank">Details</a>
                   </p>
                 </li>
@@ -216,9 +269,9 @@
                   <h4 class="organization">Hyundai-NGV</h4>
                   <span class="date">2019. 12. 26 ~ 2020. 02. 21</span>
                   <p class="detail">
-                    - Basic actuator control programming using Arduino <br>
-                    - Deep learning based Colab using Python<br>
-                    - Practiced on self-driving RC cars using Raspberry Pi <br>
+                    - Basic actuator control programming using Arduino. <br>
+                    - Deep learning based Colab using Python. <br>
+                    - Practiced on self-driving RC cars using Raspberry Pi. <br>
                     - In subsequent team projects, implemented an algorithm that detects objects using YOLO and fuses heterogeneous sensors.
                     <a href="https://liveituphj.tistory.com/1" target="_blank">Details</a>
                   </p>
@@ -236,7 +289,7 @@
               <ul>
                 
                 <li>
-                  <h3><a>reconstruct_3d </a></h3>
+                  <h3><a>Reconstruct_3d </a></h3>
                   <p class="detail">
                     A system that matches 3D Point Cloud obtained by RPLidar and Odometry data of Real-sense Camera.
                     <a href="https://github.com/HongHeeJung/reconstruct_3d" target="_blank">Code</a>
@@ -282,13 +335,13 @@
               <h2>Awards</h2>
               <ul>
                 <li>
-                  <h3>Encouragement Award in ICT Convergence Project Contest</h3>
+                  <h3><b>Encouragement Award</b> in ICT Convergence Project Contest</h3>
                   <h4 class="organization">NTREX(Device Mart)</h4>
                   <span class="date">2020. 05. 14</span>
                 </li>
 
                 <li>
-                  <h3>Encouragement Award in KSAE Capstone Design Contest</h3>
+                  <h3><b>Encouragement Award</b> in KSAE Capstone Design Contest</h3>
                   <h4 class="organization">The Korean Society of Automotive Engineers (KSAE) </h4>
                   <span class="date">2019. 11. 20</span>
                 </li>
@@ -328,9 +381,16 @@
                 </li>
 
                 <li>
-                  <h3>JavaScript (ES6)</h3>
+                  <h3>JavaScript</h3>
                   <div class="skill-bar">
-                    <span class="bar" style="width: 30% ;"></span>
+                    <span class="bar" style="width: 20% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>html/css</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 20% ;"></span>
                   </div>
                 </li>
               </ul>
