@@ -16,6 +16,7 @@
     <link href="./assets/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- custom css -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
     <link href="./assets/css/common.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
 
@@ -33,7 +34,7 @@
       <header>
         <h1 class="heading-container">Résumé</h1>
         <h2 class="name-container">Hong Heejung</h2>
-        <h3 class="job-container">Software Engineer</h3>
+        <h3 class="job-container">국민대학교 <br> <b>자동차IT융합학과</b></h3>
         <div class="profile-picture">
           <img src="./assets/img/profile.jpeg" alt="">
         </div>
@@ -62,7 +63,86 @@
       <section id="main">
         <div class="resume-item-wrapper">
 
+          <!-- Interest -->
+          <section class="resume-item interset">
+            <div class="inner">
+              <div id="services">
+                <h2><br>관심 분야</h2>
+                <div class="col-md-10 col-md-offset-1 section-title text-center">
+                  <h3>저의 관심 분야는</h3>
+                  <hr>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-4 service"> 
+                      <img src="./assets/img/map.jpg" class="img-responsive" alt="Project Title">
+                    <h4>임베디드 개발</h4>
+                    <p>
+                      주로 <b>C++</b>을 사용하고 <b>Linux 환경</b>에서의 개발 경험이 있습니다.<br>
+                    </p>
+                    <br>
+                  </div>
+                  <div class="col-xs-12 col-sm-4 service"> 
+                    <img src="./assets/img/Benz.jpg" class="img-responsive" alt="Project Title">
+                    <h4>자율 주행</h4>
+                    <p>센서 기반 인지, 판단</p>
+                    <br>
+                  </div>
+                  <div class="col-xs-12 col-sm-4 service"> 
+                    <img src="./assets/img/Mongo.JPG" class="img-responsive" alt="Project Title">
+                    <h4>여행</h4>
+                    <p>
+                      여행하면서 다양한 문화를 즐기는 것을 좋아합니다.😄<br>
+                    </p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Interest -->
+
+          
           <!-- experince -->
+          <section class="resume-item experience">
+            <div class="inner">
+              <h2>경력</h2>
+              <ul>
+                <li>
+                  <h3>현대엠엔소프트</h3>
+                  <h4 class="company">인턴</h4>
+                  <span class="date">2020. 09. 01 ~ 2020. 12. 18</span>
+                  <p class="detail">
+                    자율 주행 차량에 사용되는 정밀지도 송출 소프트웨어 개발팀에 근무 <br>
+                    - 정밀지도 Raw 데이터 구조 분석 후 접근 API 분석 및 구조 개선 <br>
+                    - 정밀지도 데이터에서 필요한 경로를 선택하여 경로를 확장하는 Logic 분석 후 
+                    개발자가 아닌 팀원들에게 동작 로직 공유 <br>
+                    - HIL Test를 위한 정밀지도 제어기 세팅 과정 및 차량 통신 프로토콜에 대한 기술 문서 작성 후 
+                    개발자들에게 공유 <br>
+                    - 가상 서버 구현 후 정밀지도 제어기와 연결 Test
+                    <blockquote>
+                      Language: C <br>
+                    </blockquote>
+                  </p>
+                </li>
+                <li>
+                  <h3>한국전자통신연구원(ETRI)</h3>
+                  <h4 class="company">연구연수생</h4>
+                  <span class="date">2020. 07. 02 ~ 2020. 08. 28</span>
+                  <p class="detail">
+                    "상용 2D 라이다에 모터를 추가한 드론용 3D 라이다 설계 및 제어" 과제 담당
+                    - 드라이버 일체형 스텝 모터 제어 <br>
+                    - 2D 라이다와 모터를 제어하여 ROS 환경에서 3D 공간 정보 획득하여 Rviz로 표현 <br>
+                    - Real-sense Camera의 Odometry(측위)정보를 이용하여 3D Point Cloud와 융합 <br>
+                    - 본 시스템 하드웨어 구조 설계 <br>
+                    <blockquote>
+                      Language: C++, C <br>
+                      Embedded Board: Jetson TX2(Ubuntu 18.04 + ROS), Arduino nano <br>
+                    </blockquote>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </section>
           <!-- experince -->
 
 
@@ -73,7 +153,7 @@
               <strong>한국전자통신연구원 (ETRI)</strong>
               <ul>
                 <li>
-                  <h3><a href="#" target="_blank">산업 및 사회문제 해결을 위한 사물 분산 지능 핵심 원천 기술 개발</a></h3> <br>
+                  <h3>산업 및 사회문제 해결을 위한 사물 분산 지능 핵심 원천 기술 개발</h3> <br>
                   <h3 style="color:#4a4"><a href="https://prezi.com/view/5628uvfOUbB1Rv6t1uBx/" target="_blank"><u>ppt</u></a></h3>
                   <p class="detail">
                     상용 2D 라이다에 모터를 추가한 드론용 3D 라이다 설계 및 제어 시스템 구현<br>
@@ -90,7 +170,7 @@
               <strong>교내(국민대학교)</strong>
               <ul>
                 <li>
-                  <h3><a href="#" target="_blank">ROSchool (캡스톤디자인)</a></h3>
+                  <h3>ROSchool</h3>
                   <p class="detail">
                     ROS 환경에서 아두이노를 이용한 모터 제어 및 직선 차선 추종 알고리즘을 구현 <br>
                     한국자동차공학회 춘계 학술대회 포스터 세션에서 발표 <br>
@@ -103,7 +183,7 @@
                   </p>
                 </li>
                 <li>
-                  <h3><a href="#" target="_blank">Sensor fusion with Digital Twin (동아리)</a></h3>
+                  <h3>Sensor fusion with Digital Twin</h3>
                   <p class="detail">
                     3D 라이다, Mobileye, GPS를 사용하여 전후방 차량을 인식하여 실시간으로 가상의 시뮬레이터로 전송하는 시스템입니다.
                     <blockquote>
@@ -118,7 +198,8 @@
               <strong>공모전</strong>
               <ul>
                 <li>
-                  <h3><a href="#" target="_blank">WhoRU (디바이스마트)</a></h3> <br>
+                  <h3>WhoRU</h3> <br>
+                  <h4 class="company">NTREX (디바이스마트)</h4>
                   <h3 style="color:#4a4"><a href="https://www.youtube.com/watch?v=9ZKqqgjH1lU&t=9s" target="_blank"><u>영상</u></a></h3>
                   <p class="detail">
                     공유 차량 플랫폼이 대중화되면서 명의 도용 현상을 방지하기 위해 개발한 시스템입니다. 
@@ -137,7 +218,7 @@
               <strong>기타 팀 프로젝트</strong>
               <ul>
                 <li>
-                  <h3><a href="#" target="_blank">Blackfencer (현대 NGV)</a></h3> <br>
+                  <h3>Blackfencer</h3> <br>
                   <h3 style="color:#4a4"><a href="https://www.youtube.com/watch?v=08L51skPKSs" target="_blank"><u>영상</u></a></h3>
                   <h3>&nbsp;&nbsp;&nbsp;</h3> 
                   <h3 style="color:#4a4"><a href="https://prezi.com/view/80b8K54lhw9a714Dh3B9/" target="_blank"><u>ppt</u></a></h3>
@@ -161,36 +242,8 @@
           <!-- activity -->
           <section class="resume-item activity">
             <div class="inner">
-              <h2>외부활동</h2>
+              <h2>외부 활동</h2>
               <ul>
-                <li>
-                  <h3>현대엠엔소프트 인턴</h3>
-                  <h4 class="organization">현대엠엔소프</h4>
-                  <span class="date">2020. 09. 01 ~ 2020. 12. 18</span>
-                  <p class="detail">
-                    자율 주행 차량에 사용되는 정밀지도 송출 소프트웨어 개발팀에 근무 <br>
-                    - 정밀지도 Raw 데이터 구조 분석 후 접근 API 분석 및 구조 개선 <br>
-                    - 정밀지도 데이터에서 필요한 경로를 선택하여 경로를 확장하는 Logic 분석 후 
-                    개발자가 아닌 팀원들에게 동작 로직 공유 <br>
-                    - HIL Test를 위한 정밀지도 제어기 세팅 과정 및 차량 통신 프로토콜에 대한 기술 문서 작성 후 
-                    개발자들에게 공유 <br>
-                    - 가상 서버 구현 후 정밀지도 제어기와 연결 Test
-                  </p>
-                </li>
-
-                <li>
-                  <h3>한국전자통신연구원(ETRI) 연구연수생</h3>
-                  <h4 class="organization">한국전자통신연구원(ETRI)</h4>
-                  <span class="date">2020. 07. 02 ~ 2020. 08. 28</span>
-                  <p class="detail">
-                    "상용 2D 라이다에 모터를 추가한 드론용 3D 라이다 설계 및 제어" 과제 담당
-                    - 드라이버 일체형 스텝 모터 제어 <br>
-                    - 2D 라이다와 모터를 제어하여 ROS 환경에서 3D 공간 정보 획득하여 Rviz로 표현 <br>
-                    - Real-sense Camera의 Odometry(측위)정보를 이용하여 3D Point Cloud와 융합 <br>
-                    - 본 시스템 하드웨어 구조 설계 <br>
-                  </p>
-                </li>
-                
                 <li>
                   <h3>Mobile Robot Perception and Navigation 강의 수강</h3>
                   <h4 class="organization">온라인 공개 강의 (서울과학기술대학교)</h4>
@@ -218,7 +271,7 @@
 
                 <li>
                   <h3>미래자동차 인재육성을 위한 모빌리티 설계 및 제작 프로젝트</h3>
-                  <h4 class="organization">현대 NGV</h4>
+                  <h4 class="organization">국비 교육 (현대 NGV)</h4>
                   <span class="date">2019. 12. 26 ~ 2020. 02. 21</span>
                   <p class="detail">
                     아두이노를 이용한 기본 액추에이터 동작 프로그래밍, 파이썬 기반의 Colab를 이용한 딥러닝, 
@@ -241,7 +294,7 @@
               <ul>
                 
                 <li>
-                  <h3><a>reconstruct_3d </a></h3>
+                  <h3>Reconstruct_3d</h3>
                   <p class="detail">
                     RPLidar로 얻은 3D Point Cloud와 Real-sense Camera의 Odometry 정보를 정합하여 mapping하는 시스템
                     <a href="https://github.com/HongHeeJung/reconstruct_3d" target="_blank">Code</a>
@@ -250,7 +303,7 @@
                 </li>
 
                 <li>
-                  <h3><a>LOAM 분석 </a></h3>
+                  <h3>LOAM 분석</h3>
                   <p class="detail">
                     LOAM(Lidar Odometry And Mapping) 소스코드 분석
                     <a href="https://liveituphj.tistory.com/35" target="_blank">상세 내용</a>
@@ -259,7 +312,7 @@
                 </li>
 
                 <li>
-                  <h3><a>Quaternion </a></h3>
+                  <h3>Quaternion</h3>
                   <p class="detail">
                     Odometry 정합 과정에 필요한 Transform 배경지식
                     <a href="https://liveituphj.tistory.com/39" target="_blank">상세 내용</a>
@@ -268,7 +321,7 @@
                 </li>
                 
                 <li>
-                  <h3><a>lidar-based autonomous driving </a></h3>
+                  <h3>Lidar-based autonomous driving</h3>
                   <p class="detail">
                     RPLidar로 주변 경로를 인식하고 이를 바탕으로 중앙으로 자율 주행하는 시스템
                     <a href="https://github.com/HongHeeJung/LiDAR_autonomous" target="_blank">Code</a>
